@@ -29,5 +29,5 @@ Scenario: sort movies alphabetically
 
 Scenario: sort movies in increasing order of release date
   When I follow "Release Date"
-  Then I should see "Aladdin" before "Amelie"
+  Then I should see "1992" before "2000"
   # your steps here
